@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+header {
+    background-color: black;
+}
+
+.logo a {
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: rgb(247,152,23);
+}
+
+.logo a:visited {
+    color:rgb(247,152,23);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* MAIN BODY */
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0,0,0,0.3);
+}
+
+main {
+    text-align: center;
+}
+
+.larger-logo {
+    margin: 10vh 0 5vh 0;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+
+/* HEADER TAGS */
+.welcome-section h1, .welcome-section h2 {
+    padding: 15px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+.elements-player-stats h3 {
+    color: rgb(247,152,23);
+    text-shadow: 2px 2px black;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* HOME PAGE PLAYER STATS */
+.player-stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+
+.elements-player-stats {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.elements-player-stats li {
+    list-style: none;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/* ABOUT US STAFF SECTION */
+.staff {
+    margin: 20px;
+}
+
+.staff-owner {
+    margin: auto;
+    width: 650px;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+
+.staff-owner h2 {
+    color:crimson;
+    padding: 5px;
+    background-color:dimgray;
+    border-radius: 10px;
+    text-shadow: 3px 3px rgb(69, 69, 69);
+}
+
+.staff-owner h3, .staff-owner h4 {
+    padding: 10px;
+    color: white;
+}
+
+.staff-owner a {
+    color: plum;
+}
+
+.staff-admin {
+    margin: 10px auto;
+    padding-bottom: 5px;
+    width: 650px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.staff-admin h2 {
+    color:cyan;
+    padding: 5px;
+    background-color: dimgray;
+    border-radius: 10px;
+    text-shadow: 3px 3px rgb(69, 69, 69);
+}
+
+.staff-admin h3, .staff-admin h4 {
+    padding: 10px;
+    color: white;
+}
+
+.staff-admin a {
+    color: plum;
+}
+
+hr {
+    width: 550px;
+    margin: 10px auto;
+    border-width: 1px;
+    border-color: dimgray;
+}

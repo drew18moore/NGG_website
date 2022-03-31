@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(33,33,33);
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.rules {
+    margin: 30px auto;
+    width: 50vw;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    background-color: rgb(15,15,15);
+    text-align: left;
+}
+
+.rules h1 {
+    color:white;
+    padding: 10px 15px ;
+    background-color:gray;
+    border-radius: 10px;
+    text-shadow: 3px 3px rgb(69, 69, 69);
+}
+
+.rules ol {
+    padding: 10px;
+}
+
+.rules-list li {
+    list-style-position: inside;
+    color: white;
+    padding: 5px;
+}

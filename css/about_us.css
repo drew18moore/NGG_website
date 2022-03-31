@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(33,33,33);
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+/* ABOUT US STAFF SECTION */
+.staff {
+    margin: 10px;
+}
+
+.staff-owner {
+    margin: auto;
+    width: 650px;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    background-color: rgb(15,15,15);
+}
+
+.staff-owner h2 {
+    color:crimson;
+    padding: 5px;
+    background-color:gray;
+    border-radius: 10px;
+    text-shadow: 3px 3px rgb(69, 69, 69);
+}
+
+.staff-owner h3, .staff-owner h4 {
+    padding: 10px;
+    color: white;
+}
+
+.staff-owner a {
+    color: plum;
+}
+
+.staff-admin {
+    margin: 10px auto;
+    padding-bottom: 5px;
+    width: 650px;
+    border-radius: 15px;
+    background-color: rgb(15,15,15);
+}
+
+.staff-admin h2 {
+    color:cyan;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 10px;
+    text-shadow: 3px 3px rgb(69, 69, 69);
+}
+
+.staff-admin h3, .staff-admin h4 {
+    padding: 10px;
+    color: white;
+}
+
+.staff-admin a {
+    color: plum;
+}
+
+hr {
+    width: 550px;
+    margin: 10px auto;
+    border-width: 1px;
+    border-color: dimgray;
+}
