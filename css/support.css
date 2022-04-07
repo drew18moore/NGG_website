@@ -1,11 +1,20 @@
+body {
+    background-color: rgb(33,33,33);
+}
+
+h1 {
+    color: white;
+}
+
 .support {
     display:inline-flex;
-    gap: 30px;
+    gap: 35px;
 }
 
 .support-item {
-    border-radius: 15px;
+    border-radius: 15px 15px 17px 17px;
     background-color: #d5a400;
+    box-shadow: 5px 5px 10px black;
 }
 
 #customer-support-img {
@@ -34,8 +43,9 @@
 }
 
 .support-bottom {
-    background-color: black;
+    background-color: rgb(15,15,15);
     border-radius: 15px;
+    border: none;
 }
 
 .support-bottom p {
@@ -45,8 +55,10 @@
 
 .support-bottom button {
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 15px;
     border: none;
     border-radius: 10px;
     margin-bottom: 25px;
+    background-color: #d5a400;
+    box-shadow: 5px 5px 10px black;
 }
