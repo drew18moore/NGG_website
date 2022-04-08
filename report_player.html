@@ -12,7 +12,11 @@
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
 
-    <script src="/js/script.js"></script>
+    <script src="js/poppa.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/validation.css">
+
+    <script src="/js/script.js">
+    </script>
 </head>
 <body>
     <header>
@@ -34,10 +38,13 @@
         <div class="demo">
             <form action="#">
                 <label for="your-steamid">Your SteamID</label>
-                <input type="text" id="your-steamid" placeholder="Enter your SteamID">
+                <input type="text" id="your-steamid" placeholder="Enter your SteamID" required>
+
+                <label for="email">Email</label>
+                <input type="text" data-validation-type="email" id="email" placeholder="Enter your email" required>
 
                 <label for="their-steamid">Their SteamID</label>
-                <input type="text" id="your-steamid" placeholder="Enter their SteamID">
+                <input type="text" id="your-steamid" placeholder="Enter their SteamID" required>
 
                 <label for="player">Who are you reporting?</label>
                 <select name="player" id="player">
