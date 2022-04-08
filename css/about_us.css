@@ -26,9 +26,9 @@ h2 {
 .staff-owner h2 {
     color:crimson;
     padding: 5px;
-    background-color:gray;
+    background-color:#d5a400;
     border-radius: 10px;
-    text-shadow: 3px 3px rgb(69, 69, 69);
+    text-shadow: 3px 3px black;
 }
 
 .staff-owner h3, .staff-owner h4 {
@@ -51,9 +51,9 @@ h2 {
 .staff-admin h2 {
     color:cyan;
     padding: 5px;
-    background-color: gray;
+    background-color: #d5a400;
     border-radius: 10px;
-    text-shadow: 3px 3px rgb(69, 69, 69);
+    text-shadow: 3px 3px black;
 }
 
 .staff-admin h3, .staff-admin h4 {

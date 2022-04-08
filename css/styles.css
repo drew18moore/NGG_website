@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@font-face {
+    font-family: daddy-day;
+    src: url(/resources/fonts/daddy-day.ttf);
+}
+
+@font-face {
+    font-family: asap;
+    src: url(/resources/fonts/asap.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,32 +19,57 @@
 
 /* NAVBAR */
 header {
-    background-color: black;
+    background-color: #d5a400;
+    border-radius: 15px;
+    border: 5px solid black;
+    margin: 5px;
+    box-shadow: 5px 5px 10px black;
+    padding: 0px 30px;
 }
 
+/* Custom Navbar Logo */
 .logo a {
-    font-size: 40px;
+    font-size: 20px;
     text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 10px;
-    color: #d5a400;
+    font-family: asap;
+}
+
+#N, #G-1 {
+    font-size: 50px;
+    font-family: Daddy-Day;
+}
+
+#G-2-background {
+    background-color: black;
+    border-radius: 5px;
+    padding: 25px 10px 5px 10px;
+}
+
+#G-2 {
+    font-size: 50px;
+    color: white;
+    font-family: daddy-day;
+}
+
+#G-2-small {
+    color: white;
+    font-family: asap;
 }
 
 .logo a:visited {
-    color:#d5a400;
+    color:black;
 }
 
+/* Navbar Links */
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    min-height: 8vh;
+    min-height: 7vh;
 }
 
 .nav-links {
     display: flex;
-    justify-content: space-around;
-    width: 50%;
 }
 
 .nav-links li {
@@ -42,10 +77,20 @@ nav {
 }
 
 .nav-links a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+    transition: 0.3s;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.nav-links a:hover {
+    color: white;
+    background-color: black;
+    font-size: 25px;
 }
 
 /* MAIN BODY */
@@ -90,7 +135,7 @@ main {
 }
 
 .elements-player-stats h3 {
-    color: rgb(247,152,23);
+    color: #d5a400;
     text-shadow: 2px 2px black;
 }
 
