@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: daddy-day;
-    src: url(/resources/fonts/daddy-day.ttf);
+    src: url(../resources/fonts/daddy-day.ttf);
 }
 
 @font-face {
     font-family: asap;
-    src: url(/resources/fonts/asap.ttf);
+    src: url(../resources/fonts/asap.ttf);
 }
 
 * {
