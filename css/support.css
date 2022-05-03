@@ -22,24 +22,18 @@ h1 {
     height: 125px;
     margin: 40px 50px 26px 50px;
     width: 150px;
-    -webkit-filter: drop-shadow(2px 2px 2px #222);
-    filter: drop-shadow(2px 2px 2px #222);
 }
 
 #report-img {
     width: 146px;
     height: 146px;
     margin: 30px 52px 15px 52px;
-    -webkit-filter: drop-shadow(2px 2px 2px #222);
-    filter: drop-shadow(2px 2px 2px #222);
 }
 
 #appeal-img {
     width: 96px;
     height: 125px;
     margin: 40px 77px 26px 77px;
-    -webkit-filter: drop-shadow(2px 2px 2px #222);
-    filter: drop-shadow(2px 2px 2px #222);
 }
 
 .support-bottom {
@@ -61,4 +55,14 @@ h1 {
     margin-bottom: 25px;
     background-color: #d5a400;
     box-shadow: 5px 5px 10px black;
+}
+
+@media(max-width: 830px) {
+    .support {
+        display: inline-block;
+    }
+
+    .support-item {
+        margin-bottom: 35px;
+    }
 }
