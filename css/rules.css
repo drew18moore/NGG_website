@@ -2,25 +2,22 @@ body {
     background-color: rgb(33,33,33);
 }
 
-h2 {
-    color: white;
-}
-
 .rules {
     margin: 30px auto;
-    width: 50vw;
+    width: fit-content;
     border-radius: 15px;
     padding-bottom: 5px;
     background-color: rgb(15,15,15);
     text-align: left;
-    box-shadow: 5px 5px 10px black;
+    border: 5px solid black;
 }
 
 .rules h1 {
-    color: white;
-    padding: 10px 15px ;
+    padding: 10px;
     background-color:#d5a400;
     border-radius: 10px;
+    border-bottom: 5px solid black;
+    color:crimson;
     text-shadow: 3px 3px black;
 }
 

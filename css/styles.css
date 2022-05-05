@@ -10,11 +10,16 @@
     src: url(../resources/fonts/asap.ttf);
 }
 
+@font-face {
+    font-family: navine-reg;
+    src: url(../resources/fonts/NavineDemo-SemiCondensed.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: navine-reg;
 }
 
 /* NAVBAR */
@@ -23,7 +28,6 @@ header {
     border-radius: 15px;
     border: 5px solid black;
     margin: 5px;
-    box-shadow: 5px 5px 10px black;
     padding: 0px 30px;
 }
 
@@ -184,7 +188,6 @@ main {
 
 .larger-logo {
     margin: 10vh 0 5vh 0;
-    box-shadow: 5px 5px 10px black;
     border-radius: 10px;
 }
 
