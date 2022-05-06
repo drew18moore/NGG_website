@@ -17,7 +17,7 @@ function renderHTML(data) {
     var htmlString = "";
 
     for (i = 0; i < data.length; i++) {
-        htmlString += "<h3>" + data[i].steamID  + "</h3>" + "<h4><a href=\"" + data[i].steamURL + "\">" + data[i].steamURL + "</a>" + "</h4>";
+        htmlString += "<h3>" + data[i].steamID  + "</h3>" + "<h4><a href=\"" + data[i].steamURL + "\">" + data[i].steamURL + "</a>" + "</h4><hr>";
     }
 
     container.insertAdjacentHTML('beforeend', htmlString)
