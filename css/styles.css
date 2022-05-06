@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 @font-face {
     font-family: daddy-day;
     src: url(../resources/fonts/daddy-day.ttf);
@@ -234,4 +232,9 @@ h3 {
     list-style: none;
     color: white;
     text-shadow: 2px 2px black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }

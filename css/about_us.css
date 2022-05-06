@@ -16,6 +16,7 @@ h1 {
     padding-bottom: 5px;
     background-color: rgb(15,15,15);
     border: 5px solid black;
+    box-shadow: 5px 5px 10px black;
 }
 
 .staff-owner h2 {
@@ -48,6 +49,7 @@ a {
     border-radius: 15px;
     background-color: rgb(15,15,15);
     border: 5px solid black;
+    box-shadow: 5px 5px 10px black;
 }
 
 .staff-admin h2 {
