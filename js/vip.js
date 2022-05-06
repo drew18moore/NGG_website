@@ -3,7 +3,7 @@ var container = document.getElementById("content");
 
 document.addEventListener("DOMContentLoaded", function(event) { 
     var ourRequest = new XMLHttpRequest();
-    ourRequest.open('GET', '/vip.json');
+    ourRequest.open('GET', './vip.json');
     ourRequest.onload = function() {
         var ourData = JSON.parse(ourRequest.responseText);
         renderHTML(ourData);
