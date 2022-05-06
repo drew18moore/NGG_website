@@ -1,14 +1,14 @@
 [
     {
-        "steamID": "Player1",
+        "steamID": "VIP1",
         "steamURL": "url.com"
     },
     {
-        "steamID": "Player2",
+        "steamID": "VIP2",
         "steamURL": "url.com"
     },
     {
-        "steamID": "Player3",
+        "steamID": "VIP3",
         "steamURL": "url.com"
     }
 ]

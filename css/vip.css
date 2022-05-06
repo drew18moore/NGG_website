@@ -2,10 +2,29 @@ body {
     background-color: rgb(33,33,33);
 }
 
+h1 {
+    color:cyan;
+    padding: 5px;
+    background-color: #d5a400;
+    border-radius: 10px;
+    text-shadow: 3px 3px black;
+    border-bottom: 5px solid black;
+}
+
 h3 {
     color: white;
 }
 
 a {
     color: plum;
+}
+
+#content {
+    margin: auto;
+    width: 650px;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    background-color: rgb(15,15,15);
+    border: 5px solid black;
+    box-shadow: 5px 5px 10px black;
 }
