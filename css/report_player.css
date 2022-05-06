@@ -17,10 +17,17 @@ label {
 
 input[type=text], input[type=email] {
     padding: .4em 1em;
-    font-family: Arial,Helvetica,sans-serif;
 	font-size: 1em;
 }
 
 input[type=submit] {
     margin: 30px 0 0 0;
+}
+
+textarea {
+    padding: .4em 1em;
+    font-size: 1em;
+    width: 350px;
+    height: 150px;
+    resize: none;
 }
