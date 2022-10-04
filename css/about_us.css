@@ -9,9 +9,12 @@ h1 {
 }
 
 /* ABOUT US STAFF SECTION */
+.staff {
+    width: 650px;
+    margin: auto;
+}
 .staff-owner {
     margin: auto;
-    width: 650px;
     border-radius: 15px;
     padding-bottom: 5px;
     background-color: rgb(15,15,15);
@@ -40,12 +43,12 @@ h4 {
 a {
     color: plum;
     text-decoration: none;
+    word-wrap: break-word;
 }
 
 .staff-admin {
     margin: 10px auto;
     padding-bottom: 5px;
-    width: 650px;
     border-radius: 15px;
     background-color: rgb(15,15,15);
     border: 5px solid black;
@@ -62,9 +65,15 @@ a {
 }
 
 hr {
-    width: 550px;
+    width: 90%;
     margin: 10px auto;
     border-width: 2px;
     border-radius: 15px;
     border-color: black;
+}
+
+@media(max-width: 750px) {
+    .staff {
+        width: 90%;
+    }
 }
