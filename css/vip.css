@@ -30,9 +30,15 @@ a {
 }
 
 hr {
-    width: 550px;
+    width: 90%;
     margin: 10px auto;
     border-width: 2px;
     border-radius: 15px;
     border-color: black;
+}
+
+@media(max-width: 750px) {
+    #content {
+        width: 90%;
+    }
 }
