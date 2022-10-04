@@ -31,3 +31,9 @@ body {
     color: white;
     padding: 5px;
 }
+
+@media(max-width: 1000px) {
+    .rules {
+        width: 90%;
+    }
+}
