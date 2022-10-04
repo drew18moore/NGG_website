@@ -30,6 +30,10 @@ header {
 }
 
 /* Custom Navbar Logo */
+.logo img {
+    height: 7vh;
+    vertical-align: middle;
+}
 .logo a {
     font-size: 20px;
     text-decoration: none;
